@@ -17,6 +17,14 @@ public class VectorAPIUnitTest {
   }
 
   @Test
+  public void whenTwoArraysProvided_thenVerifyVectorAdd1() {
+    int[] arr1 = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4};
+    int[] arr2 = {100, 200, 300, 400, 100, 200, 300, 400, 100, 200, 300, 400, 100, 200, 300, 400};
+    int[] result = {101, 202, 303, 404, 101, 202, 303, 404, 101, 202, 303, 404, 101, 202, 303, 404};
+    assertArrayEquals(result, vector.addTwoVectorArrays(arr1, arr2));
+  }
+
+  @Test
   public void whenTwoArraysProvided_thenVerifyVectorAdd() {
     int[] arr1 = {1, 2, 3, 4};
     int[] arr2 = {100, 200, 300, 400};
