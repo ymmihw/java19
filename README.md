@@ -10,3 +10,4 @@ run configuration, Add VM options
 Module | Article
 --|--
 java19-vector-api | [The Vector API in Java 19](https://www.baeldung.com/java-vector-api)
+java19-structured-concurrency | [Structured Concurrency in Java 19](https://www.baeldung.com/java-structured-concurrency)

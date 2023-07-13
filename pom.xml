@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>java19-vector-api</module>
+        <module>java19-structured-concurrency</module>
     </modules>
     <dependencyManagement>
         <dependencies>
